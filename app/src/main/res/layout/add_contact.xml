@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:backgroundTint="#958181"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:background="#172025"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:src="@drawable/pngegg" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/countryCode"
+            android:layout_marginTop="10dp"
+            android:layout_width="162dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Код на държавата"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:clickable="false"
+                android:text="ВАЛУТА" />
+
+            <EditText
+                android:id="@+id/country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="25dp"
+                android:text="ДЪРЖАВА" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginEnd="20dp"
+            android:ems="10"
+            android:hint="ТЕЛЕФОН"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="ИМЕ"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ФАМИЛИЯ"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ФИРМА"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="#3B9870"
+                android:text="НАБЕРИ"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/sms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#DCFDAF3B"
+
+                android:layout_weight="1"
+                android:text="ИЗПРАТИ SMS" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp">
+
+            <Button
+                android:id="@+id/saveContact"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:backgroundTint="#0555AA"
+                android:text="ЗАПАЗИ"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#DCB30B1F"
+
+                android:layout_weight="1"
+                android:text="ИЗТРИЙ" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
