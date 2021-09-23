@@ -23,3 +23,9 @@
 
 
 Приложението е тествано на Pixel 2 API 24.
+
+Screenshots:
+
+![demo1](./screenshots/demo2.png)   
+
+![demo2](./screenshots/demo3.png)
